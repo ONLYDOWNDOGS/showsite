@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+{% bootstrap_messages %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% block style %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{% static 'sendemail/css/styleemail.css' %}" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </script>
+    <script src="{% static 'sendemail/js/email.js' %}"></script>
+    <title>Email</title>
+    {% endblock style %}
+  </head>
+
+  {% block content %}
+  <div class="content">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="info">
+      <h1>Contact Me!</h1>
+      <ol class="info_text">
+        <li>Phone: 704-390-2559</li>
+        <li>Hours: TBD</li>
+        <li>Location: Here</li>
+      </ol>
+    </div>
+    <div class="option-text">
+      <h3>.....Or Just</h3>
+      <h2>Email Me Here!</h2>
+    </div>
+    <br>
+    <div class="form-container">
+      <br>
+      <form method="post" class="submission">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  {% endblock content %}
