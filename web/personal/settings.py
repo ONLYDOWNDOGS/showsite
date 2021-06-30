@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['protected-depths-05682.herokuapp.com', '127.0.0.1']
 INSTALLED_APPS = [
     'sendemail.apps.SendemailConfig',
     'appone.apps.ApponeConfig',
-    'django_bootstrap5',
+    'bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
