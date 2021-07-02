@@ -1,8 +1,8 @@
 beautifulsoup4==4.9.3
-Django==3.2.4
-django-bootstrap4==3.0.1
-django-anymail[mailgun]==8.4
 dj-database-url==0.5.0
+Django==3.2.4
+django-anymail[mailgun]==8.4
+django-bootstrap4==3.0.1
 django-crispy-forms==1.11.1
 django-heroku==0.3.1
 gunicorn==20.1.0

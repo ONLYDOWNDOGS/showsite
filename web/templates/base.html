@@ -1,7 +1,7 @@
 {% load static %}
 {% load bootstrap4 %}
 {% bootstrap_css %}
-{% bootstrap_javascript %}
+{% bootstrap_javascript jquery='full' %}
 {% bootstrap_messages %}
 
 <!DOCTYPE html>
@@ -20,8 +20,7 @@
     <nav class="navbar navbar-dark navbar-expand bg-dark justify-content-between">
       <div class="container-fluid">
         <ul class="navbar-nav">
-          <!-- THERE'S A PROBLEM HERE. WHEN CLICKED, NO DROPDOWN APPEARS AND A # APPEARS IN THE URL-->
-          <!-- <li class="nav-item dropdown text-center">
+          <li class="nav-item dropdown text-center">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-list"></span>
             <span class="d-xl-block d-none"></span><span class="d-none d-sm-inline px-1">Menu</span> </a>
@@ -35,7 +34,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="{% url 'appone:contact/' %}">Contact</a>
             </div>
-          </li> -->
+          </li> 
         </ul>
       </div>
     </nav>
