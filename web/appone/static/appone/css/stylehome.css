@@ -1,12 +1,10 @@
 .personal {
-    position: relative;
-    display: table-cell;
+    position: absolute;
     background-color: rgba(36, 44, 61, 1);
-    top: 25px;
-    left: 50px;
+    top: 250px;
+    left: 500px;
     width: 500px;
     height: 500px;
-    vertical-align: left;
 }
 
 .personal_info {
@@ -38,7 +36,7 @@
     border-color: red;
     border-style: solid;
     border-width: 5px;
-    top: -1400px;
+    top: 1400px;
     left: 775px;
     width: 400px;
     height: 500px;

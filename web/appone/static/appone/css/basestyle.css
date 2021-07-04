@@ -7,15 +7,15 @@ body {
     margin: 0;
     background: rgb(36, 44, 61, 1);
 }
-
-@media (min-width:567px) {
+/*This does nothing! */
+/* @media (min-width:567px) {
     .abs-center-x {
         position: absolute;
         top: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
-}
+} */
 
 .navbar {
     position: relative;
