@@ -1,32 +1,39 @@
 .personal {
-    position: absolute;
+    position: relative;
     background-color: rgba(36, 44, 61, 1);
-    top: 250px;
-    left: 500px;
+    border-left: 3px solid red;
+    border-right: 3px solid black;
+    top: 50px;
+    left: 400px;
     width: 500px;
-    height: 500px;
+    height: 325px;
 }
 
 .personal_info {
     text-align: center;
     color: red;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial;
 }
 
 .skillsets {
     position: relative;
     display: inline-flex;
-    top: -700px;
-    right: -1400px;
-    width: 500px;
+    top: -300px;
+    left: 20px;
+    width: 300px;
     height: 750px;
     vertical-align: right;
 }
 
+.skill_title {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .skill_info {
     text-align: center;
-    font-size: 40px;
+    font-size: 13px;
     font-family: Arial;
     color: red;
 }
@@ -36,10 +43,10 @@
     border-color: red;
     border-style: solid;
     border-width: 5px;
-    top: 1400px;
-    left: 775px;
+    top: -1050px;
+    left: 950px;
     width: 400px;
-    height: 500px;
+    height: 450px;
     z-index: 0;
 }
 
@@ -58,7 +65,8 @@
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/space.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("img/space.jpg") no-repeat;
     background-size: 100%;
     height: 750px;
     width: 80%;

@@ -1,3 +1,11 @@
+/* Common breakpoints to check for:
+    + 320px-480px: Mobile
+    + 481px-768px: Tablets
+    + 769px-1024px: Laptop, Small Screens
+    + 1025px-1200px: Desktop, Large Screens
+    + 1201px++: Extra Large Screens, TV's
+*/
+
 html {
     height: 100%;
 }
@@ -7,15 +15,15 @@ body {
     margin: 0;
     background: rgb(36, 44, 61, 1);
 }
-/*This does nothing! */
-/* @media (min-width:567px) {
+
+@media (min-width:567px) {
     .abs-center-x {
         position: absolute;
         top: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
-} */
+}
 
 .navbar {
     position: relative;
