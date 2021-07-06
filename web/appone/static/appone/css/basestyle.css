@@ -1,11 +1,3 @@
-/* Common breakpoints to check for:
-    + 320px-480px: Mobile
-    + 481px-768px: Tablets
-    + 769px-1024px: Laptop, Small Screens
-    + 1025px-1200px: Desktop, Large Screens
-    + 1201px++: Extra Large Screens, TV's
-*/
-
 html {
     height: 100%;
 }
@@ -14,15 +6,6 @@ body {
     height: 100%;
     margin: 0;
     background: rgb(36, 44, 61, 1);
-}
-
-@media (min-width:567px) {
-    .abs-center-x {
-        position: absolute;
-        top: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 }
 
 .navbar {
@@ -53,3 +36,36 @@ body {
 a {
     font-size: 30px;
 }
+
+/* XL Screens + Tv's */
+@media screen and (min-width: 1201px) {
+
+}
+
+/* Desktops, Large Screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Laptops, Small Screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Smartphones */
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+}
+
+    /* No idea wtf this is 
+@media screen and (min-width:567px) {
+    .abs-center-x {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    } */
