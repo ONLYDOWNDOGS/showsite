@@ -123,4 +123,10 @@
         height: 750px;
         width: 80%;
     }
+
+    @media all and (max-width: 400px) {
+        .bannerpic {
+            display: none;
+        }
+    }
 }
