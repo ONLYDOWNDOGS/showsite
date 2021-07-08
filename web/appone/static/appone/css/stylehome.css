@@ -1,5 +1,11 @@
 .personal {
     position: relative;
+    border-left: 3px solid red;
+    border-right: 3px solid black;
+    top: 50px;
+    left: 400px;
+    width: 500px;
+    height: 325px;
     background-color: rgba(36, 44, 61, 1);
 }
 
@@ -7,10 +13,15 @@
     text-align: center;
     color: red;
     font-family: Arial;
+    font-size: 20px;
 }
 
 .skillsets_box {
     position: relative;
+    top: -200px;
+    left: 20px;
+    width: 300px;
+    height: 750px;
 }
 .skillsets {
     position: inherit;
@@ -20,6 +31,9 @@
 
 .skill_title {
     position: inherit;
+    top: -75px;
+    left: 175px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,10 +41,17 @@
     text-align: center;
     font-family: Arial;
     color: red;
+    font-size: 13px;
 }
 
 .picbox {
     position: relative;
+    border-width: 5px;
+    top: -1050px;
+    left: 950px;
+    width: 400px;
+    height: 450px;
+    z-index: 0;
     border-color: red;
     border-style: solid;
 }
@@ -44,6 +65,10 @@
 .shittyspace {
     position: relative;
     display: block;
+    top: -950px;
+    border-width: 5px;
+    height: 750px;
+    width: 80%;
     border-color: red;
     border-style: solid;
     margin-left: auto;
@@ -55,6 +80,8 @@
 
 .shittyspace_info {
     position: relative;
+    top: 225px;
+    font-size: 105px;
     list-style: none;
     text-align: center; 
     font-family: Arial;
@@ -72,61 +99,41 @@
 }
 /* This isn't working, but the bottom one is at least! */
 /* Tablets 688px */
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 1080px) {
+
+}
+
+@media (orientation:portrait), (max-width: 800px) {
+    .bannerpic {
+        display: none;
+    }
+
     .personal {
-        border-left: 3px solid red;
-        border-right: 3px solid black;
-        top: 50px;
-        left: 400px;
-        width: 500px;
-        height: 325px;
+        top: 35px;
+        left: 25px;
+        width: 200px;
     }
 
     .personal_info {
-        font-size: 20px;
-    }
-
-    .skillsets_box {
-        top: -200px;
-        left: 20px;
-        width: 300px;
-        height: 750px;
-    }
-
-    .skill_title {
-        top: -75px;
-        left: 175px;
-        font-size: 15px;
-    }
-
-    .skill_info {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .picbox {
         border-width: 5px;
         top: -1050px;
-        left: 950px;
-        width: 400px;
-        height: 450px;
-        z-index: 0;
-    }
-
-    .shittyspace_info {
-        top: 225px;
-        font-size: 105px;
+        left: 275px;
+        width: 200px;
+        height: 225px;
     }
 
     .shittyspace {
-        top: -950px;
-        border-width: 5px;
-        height: 750px;
-        width: 80%;
+        height: 300px;
+        top: -550px;
     }
-}
 
-@media screen and (max-width: 400px) {
-    .bannerpic {
-        display: none;
+    .skillsets_box {
+        top: 100px;
+        left: -20px;
     }
+
 }
