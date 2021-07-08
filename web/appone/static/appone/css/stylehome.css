@@ -62,17 +62,17 @@
 }
 
 /* XL Screens + Tv's 1312px */
-@media screen and (min-width: 87em) {
+@media screen and (max-width: 110em) {
 
 }
 
 /* Desktops, Large Screens 992px */
-@media screen and (min-width: 62em) {
+@media screen and (max-width: 86em) {
 
 }
-
+/* This isn't working, but the bottom one is at least! */
 /* Tablets 688px */
-@media screen and (min-width: 43em) {
+@media screen and (max-width: 668px) {
     .personal {
         border-left: 3px solid red;
         border-right: 3px solid black;
@@ -123,10 +123,10 @@
         height: 750px;
         width: 80%;
     }
+}
 
-    @media all and (max-width: 400px) {
-        .bannerpic {
-            display: none;
-        }
+@media screen and (max-width: 400px) {
+    .bannerpic {
+        display: none;
     }
 }
