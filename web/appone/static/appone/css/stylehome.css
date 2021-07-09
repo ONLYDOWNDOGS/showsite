@@ -33,6 +33,8 @@
     position: inherit;
     top: -75px;
     left: 175px;
+    color: whitesmoke;
+    font-weight: bold;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -121,18 +123,18 @@
     .picbox {
         border-width: 5px;
         top: -1050px;
-        left: 275px;
-        width: 200px;
-        height: 225px;
+        left: 250px;
+        width: 100px;
+        height: 125px;
     }
 
     .shittyspace {
         height: 300px;
-        top: -550px;
+        top: -500px;
     }
 
     .skillsets_box {
-        top: 100px;
+        top: 120px;
         left: -20px;
     }
 

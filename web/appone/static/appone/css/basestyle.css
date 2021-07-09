@@ -37,11 +37,22 @@ a {
     font-size: 30px;
 }
 
-    /* No idea wtf this is 
-@media screen and (min-width:567px) {
-    .abs-center-x {
-        position: absolute;
-        top: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-    } */
+/* XL Screens + Tv's 1312px */
+@media screen and (max-width: 110em) {
+
+}
+
+/* Desktops, Large Screens 992px */
+@media screen and (max-width: 86em) {
+
+}
+
+/* Tablets 688px */
+@media screen and (max-width: 1080px) {
+
+}
+
+/* Phones */
+@media (orientation:portrait), (max-width: 800px) {
+
+}
