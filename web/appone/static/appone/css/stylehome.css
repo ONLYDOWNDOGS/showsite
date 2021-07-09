@@ -2,8 +2,8 @@
     position: relative;
     border-left: 3px solid red;
     border-right: 3px solid black;
-    top: 50px;
-    left: 400px;
+    top: 100px;
+    left: 675px;
     width: 500px;
     height: 325px;
     background-color: rgba(36, 44, 61, 1);
@@ -48,7 +48,7 @@
     position: relative;
     border-width: 5px;
     top: -1050px;
-    left: 950px;
+    left: 1450px;
     width: 400px;
     height: 450px;
     z-index: 0;
