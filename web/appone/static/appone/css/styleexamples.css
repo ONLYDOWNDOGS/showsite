@@ -21,16 +21,6 @@ a {
     font-size: 30px;
 }
 
-.navbar {
-    position: relative;
-    border: solid;
-    border-color: rgba(36, 44, 61, 1);
-    height: 75px;
-    width: 100%;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .content {
     min-height: 100%;
     background: url("img/mountains.jpg") fixed no-repeat;

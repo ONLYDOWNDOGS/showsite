@@ -1,17 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
-{% load bootstrap4 %}
-{% bootstrap_css %}
-{% bootstrap_javascript %}
-{% bootstrap_messages %}
 
 <!DOCTYPE html>
 <html>
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {% block style %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{% static 'sendemail/css/styleemail.css' %}" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </script>

@@ -1,4 +1,4 @@
-html {
+ html {
     height: 100%;
 }
 
@@ -10,12 +10,16 @@ body {
 
 .navbar {
     margin: auto;
-    border: solid;
+    border: dashed;
     border-color: rgba(36, 44, 61, 1);
-    height: 75px;
-    width: 95%;
+    height: 80px;
+    width: 90%;
     font-size: 30px;
     font-weight: bold;
+}
+
+a {
+    color: brown;
 }
 
 .toppic {
@@ -55,4 +59,4 @@ a {
 /* Phones */
 @media (orientation:portrait), (max-width: 800px) {
 
-}
+} 
