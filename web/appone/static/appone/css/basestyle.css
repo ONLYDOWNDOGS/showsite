@@ -9,11 +9,11 @@ body {
 }
 
 .navbar {
-    position: relative;
+    margin: auto;
     border: solid;
     border-color: rgba(36, 44, 61, 1);
     height: 75px;
-    width: 100%;
+    width: 95%;
     font-size: 30px;
     font-weight: bold;
 }
