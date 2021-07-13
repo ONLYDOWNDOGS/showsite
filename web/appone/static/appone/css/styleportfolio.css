@@ -69,14 +69,14 @@ a {
 /* Phones */
 @media (orientation:portrait), (max-width: 800px) {
     .container {
-        grid-row-gap: 10px;
+        grid-row-gap: 50px;
         grid-column-gap: 15px;
     }
 
     .items {
         border: 3px solid;
         padding: 5px;
-        height: 50px;
+        height: 125px;
     }
 
     .first {
