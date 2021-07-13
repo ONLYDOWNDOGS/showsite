@@ -2,34 +2,13 @@ html {
     height: 100%;
 }
 
-@media (min-width:567px) {
-    .abs-center-x {
-        position: absolute;
-        top: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
 h1 {
     text-align: center;
     color: rgba(217, 4, 4, 1);
 }
 
-h2 {
-    font-size: 30px;
-    margin-top: 15px;
-    margin-left: 850px;
-}
-
-h3 {
-    font-size: 28px;
-    margin-top: 360px;
-    margin-left: 895px;
-}
-
-a {
-    font-size: 30px;
+ol {
+    list-style: none;
 }
 
 body {
@@ -47,12 +26,12 @@ body {
     float: top;
     display: table-cell;
     margin-top: 70px;
-    margin-left: 560px;
+    margin-left: 600px;
     top: 50px;
     border: solid;
     font-size: 120px;
     background-color: rgba(36, 44, 61, 1);
-    width: 800px;
+    width: 700px;
 }
 
 .info_text {
@@ -62,6 +41,7 @@ body {
 }
 
 .option-text {
+    position: relative;
     color: red;
     z-index: 1;
 }
@@ -119,5 +99,24 @@ textarea {
 
 /* Phones */
 @media (orientation:portrait), (max-width: 800px) {
-    
+    .info{
+        position: relative;
+        top: -150px;
+    }
+
+    .info_text {
+        font-size: 30px;
+    }
+
+    .form-container {
+        left: 0px;
+        top: -100px;
+        width: 100%;
+    }
+
+    .option-text {
+        left: 125px;
+        top: -100px;
+    }
+
 } 
