@@ -27,7 +27,8 @@ body {
     display: table-cell;
     margin-top: 70px;
     margin-left: 600px;
-    top: 50px;
+    top: -50px;
+    left: -500px;
     border: solid;
     font-size: 120px;
     background-color: rgba(36, 44, 61, 1);
@@ -42,8 +43,11 @@ body {
 
 .option-text {
     position: relative;
+    top: 350px;
+    left: 300px;
     color: red;
     z-index: 1;
+    font-size: 25px;
 }
 
 
@@ -51,13 +55,14 @@ body {
 
 .form-container {
     position: relative;
-    left: 720px;
+    left: 900px;
+    top: -200px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 475px;
-    height: 560px;
+    width: 45%;
+    height: 65%;
     overflow: hidden;
     border-style: solid;
     border-width: 5px;
@@ -67,7 +72,7 @@ body {
 input,
 textarea {
     display: table-cell;
-    width: 100%;
+    width: 150%;
     padding: 5px!important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -79,6 +84,7 @@ textarea {
 }
 
 .submission {
+    margin-left: 50px;
     color: red;
 }
 
@@ -102,6 +108,7 @@ textarea {
     .info{
         position: relative;
         top: -150px;
+        left: 0px;
     }
 
     .info_text {
@@ -109,14 +116,22 @@ textarea {
     }
 
     .form-container {
-        left: 0px;
+        left: 10px;
         top: -100px;
-        width: 100%;
+        height: 80%;
+        width: 95%;
     }
 
     .option-text {
-        left: 125px;
+        left: 50px;
         top: -100px;
+    }
+
+    input,
+    textarea {
+        width: 85%;
+        padding: 3px!important;
+    
     }
 
 } 
