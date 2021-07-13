@@ -101,3 +101,23 @@ textarea {
 .submission {
     color: red;
 }
+
+/* XL Screens + Tv's 1312px */
+@media screen and (max-width: 110em) {
+
+}
+
+/* Desktops, Large Screens 992px */
+@media screen and (max-width: 86em) {
+
+}
+
+/* Tablets 688px */
+@media screen and (max-width: 1080px) {
+
+}
+
+/* Phones */
+@media (orientation:portrait), (max-width: 800px) {
+    
+} 

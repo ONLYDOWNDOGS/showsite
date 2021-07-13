@@ -14,20 +14,7 @@ body {
     border-color: rgba(36, 44, 61, 1);
     height: 80px;
     width: 90%;
-    font-size: 30px;
     font-weight: bold;
-}
-
-a {
-    color: brown;
-}
-
-.toppic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1750px;
-    height: 400px;
 }
 
 .content {
@@ -37,9 +24,6 @@ a {
     background: rgb(36, 44, 61, 1);
 }
 
-a {
-    font-size: 30px;
-}
 
 /* XL Screens + Tv's 1312px */
 @media screen and (max-width: 110em) {
@@ -58,5 +42,12 @@ a {
 
 /* Phones */
 @media (orientation:portrait), (max-width: 800px) {
+    .navbar-brand {
+        font-size: 12px;
+        margin: auto;
+    }
 
+    .navbar {
+        width: 100%;
+    }
 } 

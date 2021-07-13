@@ -12,27 +12,16 @@ a {
     font-size: 30px;
 }
 
-@media (min-width:567px) {
-    .abs-center-x {
-        position: absolute;
-        top: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
 .content {
     background: rgb(36, 44, 61, 1);
 }
 
 .first {
-    display: table-cell;
-    vertical-align: middle;
     border-radius: 200px;
     background-color: #a87f5f;
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 75px;
     margin-top: -50px;
     margin-left: -50px;
     width: 200px;
@@ -40,7 +29,9 @@ a {
 }
 
 .first_text {
+    position: relative;
     text-align: center;
+    top: 25px;
     font-size: 50px;
     color: magenta;
 }
@@ -59,3 +50,43 @@ a {
     text-align: center;
     height: 300px;
 }
+
+/* XL Screens + Tv's 1312px */
+@media screen and (max-width: 110em) {
+
+}
+
+/* Desktops, Large Screens 992px */
+@media screen and (max-width: 86em) {
+
+}
+
+/* Tablets 688px */
+@media screen and (max-width: 1080px) {
+
+}
+
+/* Phones */
+@media (orientation:portrait), (max-width: 800px) {
+    .container {
+        grid-row-gap: 10px;
+        grid-column-gap: 15px;
+    }
+
+    .items {
+        border: 3px solid;
+        padding: 5px;
+        height: 50px;
+    }
+
+    .first {
+        margin-top: -150px;
+        border-radius: 75px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .first_text {
+        font-size: 7px;
+    }
+} 
