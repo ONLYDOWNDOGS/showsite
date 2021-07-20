@@ -22,27 +22,29 @@
     <br>
     <br>
     <br>
-    <div class="info">
-      <h1>Contact Me!</h1>
-      <ol class="info_text">
-        <li>Phone: 704-390-2559</li>
-        <li>Hours: TBD</li>
-        <li>Location: Here</li>
-      </ol>
-    </div>
-    <div class="option-text">
-      <p>.....Or Just Email Me Here!</p>
-    </div>
-    <br>
-    <div class="form-container">
+    <div class="outer_wrap">
+      <div class="info">
+        <h1>Contact Me!</h1>
+        <ol class="info_text">
+          <li>Phone: 704-390-2559</li>
+          <li>Hours: TBD</li>
+          <li>Location: Here</li>
+        </ol>
+      </div>
+      <div class="option-text">
+        <p>.....Or Just Email Me Here!</p>
+      </div>
       <br>
-      <form method="post" class="submission">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div class="form-actions">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
+      <div class="form-container">
+        <br>
+        <form method="post" class="submission">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
     <br>
     <br>

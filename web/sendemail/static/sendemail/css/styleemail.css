@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    text-align: center;
+    display: inline;
     color: rgba(217, 4, 4, 1);
 }
 
@@ -36,9 +36,10 @@ body {
 }
 
 .info_text {
+    display: inline;
     font-size: 60px;
     color: red;
-    text-align: center;
+    
 }
 
 .option-text {
@@ -98,10 +99,43 @@ textarea {
 
 }
 
-/* Tablets 688px */
-@media screen and (max-width: 1080px) {
+/* iPad Pro 12.9 -- tops! */
+/* This is affecting the phones?! Fucks everyting up */
+/* @media (max-width: 1366px) {
+    .outer_wrap {
+        display: table;
+        width: 100%;
+    }
 
-}
+    .info{
+        display: table-cell;
+        align-items: center;
+        width: 100%;
+    }
+
+    .info_text {
+        font-size: 45px;
+    }
+
+    .option-text {
+        display: table-cell;
+        align-items: center;
+    }
+
+    .form-container {
+        display: table-cell;
+        align-items: ;
+        height: 60%;
+        width: 40%;
+    }
+
+    input,
+    textarea {
+        width: 85%;
+        padding: 5px!important;
+    
+    }
+} */
 
 /* Phones */
 @media (orientation:portrait), (max-width: 800px) {
@@ -109,6 +143,7 @@ textarea {
         position: relative;
         top: -150px;
         left: 0px;
+        width: 150%;
     }
 
     .info_text {
