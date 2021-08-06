@@ -62,18 +62,17 @@
           <img class="pic" src="{% static 'appone/css/img/Zen.jpg' %}" />
         </div>
       </div>
-      <div class="row">
-        <div class="shittyspace col-md">
-          {% if latest_spacefact_list %}
-          <ul class="shittyspace_info">
-            {% for spacefact in latest_spacefact_list %}
-            <li class="spacefact">{{ spacefact.spacefact_text }}</li>
-            {% endfor %}
-          </ul>
-          {% else %}
-          <p>No polls are available.</p>
-          {% endif %}
-        </div>
+      <div class="shittyspace">
+        {% if latest_spacefact_list %}
+        <ul class="shittyspace_info">
+          {% for spacefact in latest_spacefact_list %}
+          <li class="spacefact">{{ spacefact.spacefact_text }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No polls are available.</p>
+        {% endif %}
+      </div>
       </div>
     </div>
     <br>

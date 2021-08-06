@@ -25,7 +25,3 @@ def emailview(request):
             return render(request, 'success.html')
     return render(request, "email.html", {'form': form})
 
-
-# def successview(request):
-# Leads to the success view
-#    return render(request, 'success.html')
